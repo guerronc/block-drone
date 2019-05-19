@@ -2,6 +2,16 @@ exports.url = "HTTP://127.0.0.1:8545"; //Dev: HTTP://127.0.0.1:8545 Unir: http:/
 exports.password = ""; //Dev: "" Unir: Alumnos_2018_Q4_IKx5srvT
 exports.gasLimit = 996721975;
 
+exports.options = {
+  defaultBlock: 'latest',
+  defaultGas: 1,
+  defaultGasPrice: 0,
+  transactionBlockTimeout: 50,
+  transactionConfirmationBlocks: 1,
+  transactionPollingTimeout: 480
+}
+
+
 exports.accounts = [
   {
     id: 1,
@@ -28,19 +38,19 @@ exports.accounts = [
 exports.contracts = [
   {
     detalle: 'IronToken',
-    contract: '0xFE7FB9713668F9eDB8abCc6e1db662E61c80bd3F'
+    contract: '0xC02f8a8a97a0B9D2277BFEe82FA594C7E5550e05'
   },
   {
     detalle: 'Empresa',
-    contract: '0xC9E7D2C95Ff097463cA6bfD8834E532BcEba3f39',
+    contract: '0xaa05496bdAdaA1bCB5e3297513856A045E301Ef8',
   },
   {
     detalle: 'Propietario',
-    contract: '0x2F09Ee6F236DDfb52B407330765f97D530F2769D',
+    contract: '0x7838Cc2E8fa2Af0fAa1e81d086225aFd26d4ba50',
   },
   {
     detalle: 'Solicitud',
-    contract: '0x7cab4e9617B6DeB407C66a5d026fd88F114305c7',
+    contract: '0x91218b175F619947DC68291E61B43F93706175BC',
   },
 ];
 

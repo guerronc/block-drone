@@ -55,54 +55,61 @@ async function startIronToken() {
 
 async function startEmpresa() {
 
-    await Empresa.addEmpresa("Empresa B").then((result) => {
+    await Empresa.addEmpresaEvent("Empresa B").then((result) => {
         console.log('-----------------------------------------------------------');
         console.log('Resultado addEmpresa: ', result);
     }, (error) => {
         console.log(error);
     });
 
-    result = await Empresa.getEmpresa().then((result) => {
-        console.log('-----------------------------------------------------------');
-        console.log('Resultado getEmpresa: ', result);
-    }, (error) => {
-        console.log(error);
-    });
+    // await Empresa.addEmpresa("Empresa B").then((result) => {
+    //     console.log('-----------------------------------------------------------');
+    //     console.log('Resultado addEmpresa: ', result);
+    // }, (error) => {
+    //     console.log(error);
+    // });
 
-    result = await Empresa.getSaldo().then((result) => {
-        console.log('-----------------------------------------------------------');
-        console.log('Resultado getSaldo: ', result);
-    }, (error) => {
-        console.log(error);
-    });
+    // result = await Empresa.getEmpresa().then((result) => {
+    //     console.log('-----------------------------------------------------------');
+    //     console.log('Resultado getEmpresa: ', result);
+    // }, (error) => {
+    //     console.log(error);
+    // });
 
-    result = await Empresa.addDrone(100, 100, 200, 10, 1).then((result) => {
-        console.log('-----------------------------------------------------------');
-        console.log('Resultado addDrone: ', result);
-    }, (error) => {
-        console.log(error);
-    });
+    // result = await Empresa.getSaldo().then((result) => {
+    //     console.log('-----------------------------------------------------------');
+    //     console.log('Resultado getSaldo: ', result);
+    // }, (error) => {
+    //     console.log(error);
+    // });
 
-    result = await Empresa.getDrone(1).then((result) => {
-        console.log('-----------------------------------------------------------');
-        console.log('Resultado getDrone: ', result);
-    }, (error) => {
-        console.log(error);
-    });
+    // result = await Empresa.addDrone(100, 100, 200, 10, 1).then((result) => {
+    //     console.log('-----------------------------------------------------------');
+    //     console.log('Resultado addDrone: ', result);
+    // }, (error) => {
+    //     console.log(error);
+    // });
 
-    result = await Empresa.getDroneDisponible(1).then((result) => {
-        console.log('-----------------------------------------------------------');
-        console.log('Resultado getDroneDisponible: ', result);
-    }, (error) => {
-        console.log(error);
-    });
+    // result = await Empresa.getDrone(1).then((result) => {
+    //     console.log('-----------------------------------------------------------');
+    //     console.log('Resultado getDrone: ', result);
+    // }, (error) => {
+    //     console.log(error);
+    // });
 
-    result = await Empresa.setDroneDisponible(1, true).then((result) => {
-        console.log('-----------------------------------------------------------');
-        console.log('Resultado setDroneDisponible: ', result);
-    }, (error) => {
-        console.log(error);
-    });
+    // result = await Empresa.getDroneDisponible(1).then((result) => {
+    //     console.log('-----------------------------------------------------------');
+    //     console.log('Resultado getDroneDisponible: ', result);
+    // }, (error) => {
+    //     console.log(error);
+    // });
+
+    // result = await Empresa.setDroneDisponible(1, true).then((result) => {
+    //     console.log('-----------------------------------------------------------');
+    //     console.log('Resultado setDroneDisponible: ', result);
+    // }, (error) => {
+    //     console.log(error);
+    // });
 }
 
 async function startPropietario() {
@@ -174,7 +181,7 @@ async function startSolicitud() {
     });
 }
 
-//startIronToken();
-//startEmpresa();
-startPropietario();
+// startIronToken();
+startEmpresa();
+// startPropietario();
 //startSolicitud();
