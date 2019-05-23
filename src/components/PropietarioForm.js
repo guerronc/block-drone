@@ -1,6 +1,6 @@
 import React from "react";
 
-class EmpresaForm extends React.Component {
+class PropietarioForm extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -39,4 +39,4 @@ class EmpresaForm extends React.Component {
   }
 }
 
-export default EmpresaForm;
+export default PropietarioForm;

@@ -1,6 +1,6 @@
 import React from "react";
 
-class EmpresaForm extends React.Component {
+class Empresa extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -22,16 +22,30 @@ class EmpresaForm extends React.Component {
                 type="text"
                 class="form-control"
                 id="nombreEmpresa"
-                aria-describedby="nombreHelp"
+                readonly="true"
                 placeholder="Nombre de la empresa"
               />
-              <small id="nombreHelp" className="form-text text-muted">
-                Ingresar nombre de empresa
-              </small>
             </div>
-            <button type="submit" className="btn btn-primary">
-              Grabar Empresa
-            </button>
+            <div className="form-group">
+              <label for="saldo">Saldo Tokens</label>
+              <input
+                type="text"
+                class="form-control"
+                id="saldo"
+                readonly="true"
+                placeholder="0.00"
+              />
+            </div>
+            <div className="form-group">
+              <label for="dronesDisponibles">Drones disponibles</label>
+              <input
+                type="text"
+                class="form-control"
+                id="dronesDisponibles"
+                readonly="true"
+                placeholder="0"
+              />
+            </div>
           </form>
         </div>
       </React.Fragment>
@@ -39,4 +53,4 @@ class EmpresaForm extends React.Component {
   }
 }
 
-export default EmpresaForm;
+export default Empresa;
