@@ -7,42 +7,42 @@ class Empresa extends React.Component {
         <div className="container">
           <form>
             <div className="form-group">
-              <label for="addressEmpresa">Address empresa</label>
+              <label htmlFor="addressEmpresa">Address empresa</label>
               <input
-                readonly="true"
-                class="form-control-plaintext"
+                readOnly={true}
+                className="form-control-plaintext"
                 type="text"
                 id="addressEmpresa"
                 placeholder="0x0000000000000000000000000000000000000000"
               />
             </div>
             <div className="form-group">
-              <label for="nombreEmpresa">Nombre empresa</label>
+              <label htmlFor="nombreEmpresa">Nombre empresa</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="nombreEmpresa"
-                readonly="true"
+                readOnly={true}
                 placeholder="Nombre de la empresa"
               />
             </div>
             <div className="form-group">
-              <label for="saldo">Saldo Tokens</label>
+              <label htmlFor="saldo">Saldo Tokens</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="saldo"
-                readonly="true"
+                readOnly={true}
                 placeholder="0.00"
               />
             </div>
             <div className="form-group">
-              <label for="dronesDisponibles">Drones disponibles</label>
+              <label htmlFor="dronesDisponibles">Drones disponibles</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="dronesDisponibles"
-                readonly="true"
+                readOnly={true}
                 placeholder="0"
               />
             </div>

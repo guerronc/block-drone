@@ -8,54 +8,54 @@ class DroneForm extends React.Component {
         <div className="container">
           <form>
             <div className="form-group">
-              <label for="addressEmpresa">Address empresa</label>
+              <label htmlFor="addressEmpresa">Address empresa</label>
               <input
-                readonly="true"
-                class="form-control-plaintext"
+                readOnly={true}
+                className="form-control-plaintext"
                 type="text"
                 id="addressEmpresa"
                 placeholder="0x0000000000000000000000000000000000000000"
               />
             </div>
             <div className="form-group">
-              <label for="alturaMaxima">Altura Maxima</label>
+              <label htmlFor="alturaMaxima">Altura Maxima</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="alturaMaxima"
                 placeholder="Altura maxima de vuelo"
               />
             </div>
             <div className="form-group">
-              <label for="alturaMinima">Altura Minima</label>
+              <label htmlFor="alturaMinima">Altura Minima</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="alturaMinima"
                 placeholder="Altura minima de vuelo"
               />
             </div>
             <div className="form-group">
-              <label for="autonomia">Autonomia</label>
+              <label htmlFor="autonomia">Autonomia</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="autonomia"
                 placeholder="Autonomia de vuelo"
               />
             </div>
             <div className="form-group">
-              <label for="costo">Costo</label>
+              <label htmlFor="costo">Costo</label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="costo"
                 placeholder="Costo de servicio"
               />
             </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Pesticida</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+            <div className="form-group">
+              <label htmlFor="exampleFormControlSelect1">Pesticida</label>
+              <select className="form-control" id="exampleFormControlSelect1">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
