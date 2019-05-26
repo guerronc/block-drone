@@ -13,15 +13,15 @@ class Footer extends React.Component {
               © Code for Block - Developers united 2019
             </div>
             <div className="col-12 col-sm-4">
-              <img src={LogoUnir} className='w-25'/>
+              <img src={LogoUnir} className='w-25' alt='LogoUnir'/>
               Universidad del internet
             </div>
             <div className="col-12 col-sm-4">
-              <img src={LogoGitHub} className='w-25'/>
+              <img src={LogoGitHub} className='w-25' alt='LogoGitHub'/>
               GitHub
             </div>
             <div className="col-12 col-sm-4">
-              <img src={LogoGitLab} className='w-25'/>
+              <img src={LogoGitLab} className='w-25' alt='LogoGitLab'/>
               GitLab
             </div>
           </div>

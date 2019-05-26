@@ -1,14 +1,18 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Accounts from './Accounts';
 
 function Layout(props) {
   return (
-    <React.Fragment>
+    <React.Fragment>      
       <header id="header">
         <NavBar />
       </header>
-      {props.children}      
+      <header id='accounts'>
+        <Accounts></Accounts>
+      </header>
+      {props.children}
       <footer id="footer">
         <Footer />
       </footer>

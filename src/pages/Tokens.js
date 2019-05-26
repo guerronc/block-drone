@@ -1,12 +1,13 @@
 import React from "react";
 
-class Propietarios extends React.Component {
+
+class Tokens extends React.Component {
   render() {
     return (
       <React.Fragment>
         <section className="App-header">
           <div className="container pb-4 pt-4 text-center">
-            <h1>SOY EL COMPONENTE DE PROPIETARIOS</h1>
+            <h1>SOY EL COMPONENTE DE TOKENS</h1>
           </div>
         </section>
       </React.Fragment>
@@ -14,4 +15,4 @@ class Propietarios extends React.Component {
   }
 }
 
-export default Propietarios;
+export default Tokens;

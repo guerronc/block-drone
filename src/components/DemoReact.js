@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../images/logo.svg';
-import './styles/App.css';
+
 
 class DemoReact extends React.Component {
   render() {

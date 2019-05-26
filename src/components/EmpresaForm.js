@@ -5,22 +5,12 @@ class EmpresaForm extends React.Component {
     return (
       <React.Fragment>
         <div className="container">
-          <form>
-            <div className="form-group">
-              <label htmlFor="addressEmpresa">Address empresa</label>
-              <input
-                readOnly={true}
-                className="form-control-plaintext"
-                type="text"
-                id="addressEmpresa"
-                placeholder="0x0000000000000000000000000000000000000000"
-              />
-            </div>
+          <form>            
             <div className="form-group">
               <label htmlFor="nombreEmpresa">Nombre empresa</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control form-control-sm"
                 id="nombreEmpresa"
                 aria-describedby="nombreHelp"
                 placeholder="Nombre de la empresa"

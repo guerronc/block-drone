@@ -8,6 +8,7 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import DemoReact from "./DemoReact";
 import Layout from "./Layout";
+import Tokens from "../pages/Tokens";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/propietarios" component={Propietarios} />
           <Route exact path="/solicitudes" component={Solicitudes} />
           <Route exact path="/demo" component={DemoReact} />
+          <Route exact path="/tokens" component={Tokens} />
           <Route exact path="/" component={Home} />
           <Route component={NotFound} />
         </Switch>

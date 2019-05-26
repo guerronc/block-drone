@@ -1,12 +1,10 @@
 import React from "react";
-import LogoBlockchain from "../images/blockchain.svg";
 import LogoNode from "../images/nodejs.svg";
 import LogoJs from "../images/javascript.svg";
 import LogoReact from "../images/logo.svg";
 import LogoGanache from "../images/ganache.svg";
 import LogoSolidity from "../images/solidity.svg";
 import LogoTruffle from "../images/truffle.svg";
-import "./styles/Global.css";
 import LogoInfo from "./LogoInfo";
 
 class EntornoDev extends React.Component {
@@ -63,7 +61,7 @@ class EntornoDev extends React.Component {
                 logo={LogoReact}
                 nombre="React JS"
                 detalle="Libreria para el desarrollo de frontend con Javascript"
-                url="https://truffleframework.com/"
+                url="https://reactjs.org/"
               />
             </div>
           </div>

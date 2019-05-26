@@ -6,11 +6,11 @@ class Empresa extends React.Component {
       <React.Fragment>
         <div className="container">
           <form>
-            <div className="form-group">
-              <label htmlFor="addressEmpresa">Address empresa</label>
+            <div className="form-group row">
+              <label className='col-sm-2 col-form-label' htmlFor="addressEmpresa">Address empresa</label>
               <input
                 readOnly={true}
-                className="form-control-plaintext"
+                className="form-control-plaintext form-control-sm"
                 type="text"
                 id="addressEmpresa"
                 placeholder="0x0000000000000000000000000000000000000000"
@@ -19,30 +19,30 @@ class Empresa extends React.Component {
             <div className="form-group">
               <label htmlFor="nombreEmpresa">Nombre empresa</label>
               <input
-                type="text"
-                className="form-control"
-                id="nombreEmpresa"
                 readOnly={true}
+                className="form-control-plaintext form-control-sm"
+                type="text"
+                id="nombreEmpresa"
                 placeholder="Nombre de la empresa"
               />
             </div>
             <div className="form-group">
               <label htmlFor="saldo">Saldo Tokens</label>
               <input
-                type="text"
-                className="form-control"
-                id="saldo"
                 readOnly={true}
+                className="form-control-plaintext form-control-sm"
+                type="text"
+                id="saldo"
                 placeholder="0.00"
               />
             </div>
             <div className="form-group">
               <label htmlFor="dronesDisponibles">Drones disponibles</label>
               <input
-                type="text"
-                className="form-control"
-                id="dronesDisponibles"
                 readOnly={true}
+                className="form-control-plaintext form-control-sm"
+                type="text"
+                id="dronesDisponibles"
                 placeholder="0"
               />
             </div>

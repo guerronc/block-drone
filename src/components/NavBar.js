@@ -9,8 +9,12 @@ class NavBar extends React.Component {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container">
             <Link className="navbar-brand w-25 h-25" to="/">
-              <img src={LogoBlockchain} className='All-logo'/>
-              Proyecto Blockchain
+              <img
+                src={LogoBlockchain}
+                className="All-logo"
+                alt="LogoBlockchain"
+              />
+              BlackDrone
             </Link>
             <button
               className="navbar-toggler"
@@ -28,22 +32,32 @@ class NavBar extends React.Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav mr-auto">
-                <li className="nav-item active">
+                <li className="nav-item">
                   <Link className="nav-link" to="/empresas">
                     Empresa <span className="sr-only">(current)</span>
                   </Link>
                 </li>
-                <li className="nav-item active">
+                <li className="nav-item">
                   <Link className="nav-link" to="/propietarios">
                     Propietario <span className="sr-only">(current)</span>
                   </Link>
                 </li>
-                <li className="nav-item active">
+                <li className="nav-item">
                   <Link className="nav-link" to="/solicitudes">
                     Solicitudes <span className="sr-only">(current)</span>
                   </Link>
                 </li>
-              </ul>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/tokens">
+                    Comprar Tokens <span className="sr-only">(current)</span>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/demo">
+                    Demo React <span className="sr-only">(current)</span>
+                  </Link>
+                </li>
+              </ul>                            
             </div>
           </div>
         </nav>

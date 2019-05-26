@@ -1,11 +1,10 @@
 import React from "react";
-import "./styles/Global.css";
 
 class LogoInfo extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="card w-auto h-auto">
+        <div className="card w-auto h-auto text-logo-info">
           <img
             src={this.props.logo}
             className="card-img-top w-25 mx-auto p-2"

@@ -6,22 +6,12 @@ class DroneForm extends React.Component {
     return (
       <React.Fragment>
         <div className="container">
-          <form>
-            <div className="form-group">
-              <label htmlFor="addressEmpresa">Address empresa</label>
-              <input
-                readOnly={true}
-                className="form-control-plaintext"
-                type="text"
-                id="addressEmpresa"
-                placeholder="0x0000000000000000000000000000000000000000"
-              />
-            </div>
+          <form>            
             <div className="form-group">
               <label htmlFor="alturaMaxima">Altura Maxima</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control form-control-sm"
                 id="alturaMaxima"
                 placeholder="Altura maxima de vuelo"
               />
@@ -30,7 +20,7 @@ class DroneForm extends React.Component {
               <label htmlFor="alturaMinima">Altura Minima</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control form-control-sm"
                 id="alturaMinima"
                 placeholder="Altura minima de vuelo"
               />
@@ -39,7 +29,7 @@ class DroneForm extends React.Component {
               <label htmlFor="autonomia">Autonomia</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control form-control-sm"
                 id="autonomia"
                 placeholder="Autonomia de vuelo"
               />
@@ -48,7 +38,7 @@ class DroneForm extends React.Component {
               <label htmlFor="costo">Costo</label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control form-control-smf"
                 id="costo"
                 placeholder="Costo de servicio"
               />
